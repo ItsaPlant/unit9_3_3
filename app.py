@@ -23,7 +23,7 @@ def login():
                 return "Wrong credentials"
         else:
             error = form.errors
-        return render_template("login.html, form=form, error=error") # CO OZNACZA form=form???
+    return render_template("login.html, form=form, error=error") # CO OZNACZA form=form???
 
 if __name__ == "__main__":
     app.run(debug=False)
